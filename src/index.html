@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sportlife</title>
+		<meta name="description" content="Recreation of a letter stagger animation with GSAP and Splitting.js" />
+		<meta name="keywords" content="stagger, gsap, letter, text, typography, animation, web design, javascript" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="https://use.typekit.net/qhm2ggg.css">
+		<link rel="stylesheet" href="https://use.typekit.net/lwc3axy.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<style>
+			@font-face {
+				font-family: 'messapiabold';
+				src: url('fonts/messapia-bold-webfont.woff2') format('woff2'), url('fonts/messapia-bold-webfont.woff') format('woff');
+				font-weight: normal;
+				font-style: normal;
+			}
+		</style>
+	</head>
+	<body class="loading">
+		<main>
+			<div class="frame">
+				<a class="frame__home">
+					<span id='lala' class="frame__home-title">TBNC</span>
+				</a>
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">Web</h1>
+				</div>
+				<a class="frame__about">
+					<span class="frame__about-item frame__about-item--current">Click here to read project</span>
+					<span class="frame__about-item">See the cover page</span>
+				</a>
+			</div>
+			<div class="content">
+				<section class="content__item content__item--home content__item--current">
+					<img class="img-portrait" src="img/12-2.gif" alt="Some image" />
+					<p class="content__paragraph content__paragraph--large content__paragraph--first" data-splitting>Sportlife</p>
+					<p class="content__paragraph content__paragraph--large content__paragraph--right content__paragraph--last" data-splitting>gym business</p>
+					<div class='context'>
+						<div class='frame2'>
+							<div class="content__item-credits">Watch next — <a href="https://cornershop.thebluenotecase.com/">Cornershop</a></div>
+							<div class="content__item-site"><a href="https://sportlifevaldivia.com/" target="_blank">www.sportlifevaldivia.cl</a></div>
+							<div class="content__item-credits-2">Watch previous — <a href="https://frandiaz.thebluenotecase.com/">Fran Díaz</a></div>
+						</div>
+					</div>
+				</section>
+				<section class="content__item content__item--about">
+					<p class="content__paragraph" data-splitting>— Gym Web redesign</p>
+					<p class="content__paragraph" data-splitting>for <em>Temuco</em></p>
+					<p class="content__paragraph" data-splitting>& <em>Valdivia</em>,</p>
+					<p class="content__paragraph" data-splitting> Chile</p>
+					<figure class="content__figure">
+						<img class="content__figure-img" src="img/intro.jpg" alt="Some image" />
+						<figcaption class="content__figure-caption">Sportlife is a chain of gyms located throughout Chile. They have over fifty locations that are well positioned within the competition. SportSur S.A is based in Valdivia and Temuco and right in the pandemic and paused times it became relevant for them to grow different aspects of the business online.</figcaption>
+					</figure>
+						<h2 class='content-title'>The brief: Sportsur S.A. — GYM franchise</h2>
+						<div class="client-frame">
+							<div class="client-img"><img src="img/tip3.png" alt=""></div>
+						</div>
+						<p class='content-description'><b>1. What could you tell me about the gym business?</b><br>— We have part of the franchise from Sportlife in the south of Chile. There're two gyms in different cities; Temuco and Valdivia. Everything in terms of administration is separated between the two. We were growing before the Coronavirus started but as things are now in a pause, we felt that this could be a time to work in other things. We thought our website was outdated and out of care. Also, we got in contact with people that offered a new app for our clients where they can control their times working out, their calories burned, diet, etc. <br><br><b>2. So what would be the reason to redesign the website?</b><br>— The idea is to take advantage and use the website to promote also the new app we acquired plus giving it a turn with design. We want to sell memberships though the website and show a little bit of the infrastructure of the gym itself.<br><br><b>3. Who has been the main user of the website?</b><br> — There're probably two types. There is always the newbie looking to go to the gym. Valdivia is a city with a lot of students and they're quite active in terms of working out wether is inside the gym or outdoors. The other type is our consistent client. The gym is actually a place where people are used to socialize. It is a meeting point and involves contact between friends and people that know each other and share an active life; so those people that have been years with us are very important too.<br><br><b>4. What is the main goal for this rebrand online?</b><br> — To make our brand competitive online on both cities, showing our traditional and new services, our people; trainers and classes. We recently implemented a nutriologist inside the team and those kind of things need to be on the new website. We had an offer recently about getting a smart vest with <i>SportOn</i>, which is a suit that controls many parameters related to your body when working out. If possible we'd like to see some design preview related on that too. Just to see think it out for the future.<br><br><b>5. Any expectation in terms of design?</b><br> — We just want to be able to actualize relevant information and maybe make it a bit more mordern in terms of design, to attract either young students or young adults. We also want to sell memberships somewhere over there but the design is not the priority number one.<br><br><b>6. How do you want to sell memberships? Do you want to implement e-commerce?</b><br> — I think we got that sorted because the same people that is working for the app addressed for our clients is working with an Appi too where our plans and memberships are hosted and already able to be sold.<br><br><b>7. So you want to implement the Appi with the website?</b><br> — Yes that would be the idea really. I think is possible to implement it with some code in order to show the shopping cart so the backend is already working and we just need to do a few adjustemts with the frontend.<br><br><b>8. What are the most important thing for the website?</b><br> — For the people to be able to find what he or she needs. Nothing should be too hidden. Clear titles for every section. Good explanation for the classes and also to make visible the current team and trainers working indoors.</p>
+						<div class='dark-container'>
+							<img class="content-img-big" src="img/8.png" alt="Some image" />
+						<p class='content-description'>The responsiveness of this site was relevant because many clientsfro the gym use the site to check the schedueles and classes from their phones.</p>
+							<img class="content-img-big" src="img/4.png" alt="Some image" />
+							<div class='double-img'>
+								<img class="content-img-small" src="img/2.png" alt="Some image" />
+								<img class="content-img-small" src="img/10.png" alt="Some image" />
+							</div>
+						<p class='content-description'>There was a series of mockups done to show up and promote the new app <i>misportlife</i> where the regular clients from the gym will be able to organize times, ways to work out and personal training.</p>
+							<img class="content-img" src="img/type02.png" alt="Some image" />
+							<img class="content-img" src="img/symbols02.png" alt="Some image" />
+							<img class="content-img" src="img/colors02.png" alt="Some image" />
+			
+						<video class="content-img" playsinline autoplay muted loop id="myVideo">
+							<source src="img/1.mp4" type="video/mp4">
+						</video>
+							<div class='double-img'>
+								<img class="content-img-small" src="img/88-2.png" alt="Some image" />
+								<img class="content-img-small" src="img/89-2.png" alt="Some image" />
+							</div>
+						</div>	
+
+						<!--<img class="content-img" src="img/87.png" alt="Some image" />-->
+
+						<!--<img class="content-img-big" src="img/11.jpg" alt="Some image" />-->
+						<p class='related-links'><a href="http://anaykachifilm.com/" target="_blank" >www.sportlifevaldivia.cl</a></p>
+							<div class='double-link'>	
+								<span class='link'>Instagram</span>
+								<span class='desc'><a href="https://www.instagram.com/sportlife_valdivia/?hl=es-la" target="_blank">sportlife valdivia</a></span>
+								<span class='link'>Instagram</span>
+								<span class='desc'><a href="https://www.instagram.com/sportlife_temuco/?hl=es-la" target="_blank">sportlife temuco</a></span>
+								<span class='link'>Facebook</span>
+								<span class='desc'><a href="https://web.facebook.com/sportlifevaldiviachile" target="_blank">sportlife valdivia</a></span>
+								<span class='link'>Facebook</span>
+								<span class='desc'><a href="https://web.facebook.com/sportlifetemucochile" target="_blank">sportlife temuco</a></span>
+							</div>
+				</section>
+			</div>
+		</main>
+		<svg class="cursor" width="80" height="80" viewBox="0 0 80 80">
+			<circle class="cursor__inner" cx="40" cy="40" r="20"/>
+		</svg>
+		<script src="js/index.js"></script>
+		<script src="https://unpkg.com/scrollreveal"></script>
+		<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+		<script>
+					var slideUp = {
+		    distance: '130%',
+		    origin: 'bottom',
+		    opacity: 0
+		};
+
+					var slideRight = {
+		    distance: '130%',
+		    origin: 'right',
+		    opacity: null
+		};
+			ScrollReveal().reveal('.frame', { delay: 800 });
+			ScrollReveal().reveal('.img-portrait', { delay: 800 });
+			ScrollReveal().reveal('.frame2', { delay: 800 });
+			ScrollReveal().reveal('.content__paragraph', { delay: 1600 });
+			ScrollReveal().reveal('.double-img', slideUp, { delay: 600 });
+			ScrollReveal().reveal('.content-img', slideUp, { duration: 800 });
+			ScrollReveal().reveal('.client-frame-3', { delay: 600 });
+			ScrollReveal().reveal('.content-img-big', { delay: 600 });
+			ScrollReveal().reveal('.content-img', { delay: 500 });
+			ScrollReveal().reveal('h2.content-title', slideUp, { delay: 900 });
+		</script>
+	</body>
+</html>
