@@ -748,6 +748,21 @@ em {
 	    margin: 0 auto;
 	}
 
+	.frame__home{
+		display: inline-block;
+	}
+
+	.frame__about {
+		display: block !important;
+		padding: 1.5em 0;
+		position: initial;
+		margin: 0 auto;
+		text-align: center;
+		font-weight: 700;
+		text-decoration: none;
+		color: var(--color-text);
+	}
+
 }
 
 @media (any-pointer: fine) {
