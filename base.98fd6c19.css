@@ -137,6 +137,14 @@ em {
     line-height: 17px;
 }
 
+.frame__title a{
+	color: black;
+}
+
+.frame__title a:hover{
+	color: #edbc64;
+}
+
 .frame__links {
 	margin: 0.35rem 0 0 0;
 }
@@ -165,6 +173,8 @@ em {
 }
 
 .frame__about {
+	position: fixed;
+	right: 2.5rem;
 	display: inline-block;
 	margin: 1rem 0;
 	font-weight: 700;
@@ -697,6 +707,7 @@ em {
 
 	.content-description {
 	    margin-bottom: 25px;
+	    padding: 0 1em;
 	}
 
 	.double-link {
